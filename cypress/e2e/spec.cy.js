@@ -43,9 +43,11 @@ describe('Captura todos os nomes, preços e IDs dos produtos', () => {
       cy.log('Lista de Produtos:', produtos);
       console.log('Lista de Produtos:', produtos);
 
+      // Armazena a lista de produtos em uma variável global
+      Cypress.env('produtos', produtos); // Usando Cypress.env() para armazenar a variável
+
       // Verifique se a lista contém pelo menos um produto
       expect(produtos).to.have.length.greaterThan(0);
     });
   });
 });
-
