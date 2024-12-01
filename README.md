@@ -2,7 +2,7 @@
 
 
 ## Introdução
-Os scripts de teste desenvolvidos estão organizados na pasta SCRIPT_TESTES. Já o relatório detalhado pode ser encontrado na pasta RELATORIO.
+Os scripts de teste desenvolvidos estão organizados na pasta Cypress/SCRIPT_TESTES. Já o relatório detalhado pode ser encontrado na pasta Cypress/RELATORIO.
 
 Caso encontre dificuldades para acessar o arquivo relatorio.pdf, é possível visualizá-lo através do link: [Relatorio google doc](https://docs.google.com/document/d/1K9bJRKygB_ltaOErEnewcpAh3aKhYUXeY9_f7MzZ7b8/edit?tab=t.0)
 
