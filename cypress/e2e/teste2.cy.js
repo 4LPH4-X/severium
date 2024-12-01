@@ -3,7 +3,7 @@ describe('Adiciona um item ao carrinho', () => {
       cy.visit('https://www.demoblaze.com/');
   
       // Seleciona o primeiro produto da lista e adiciona ao carrinho
-      cy.get('.active > .d-block').first().within(() => {
+      cy.get('.card').first().within(() => {
         // Clica no link do produto para abrir a página de detalhes
         cy.get('.hrefch').click();
       });
