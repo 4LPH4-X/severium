@@ -1,4 +1,12 @@
-# Test Automation Framework
+# Test Automation
+
+
+## Introdução
+Os scripts de teste desenvolvidos estão organizados na pasta SCRIPT_TESTES. Já o relatório detalhado pode ser encontrado na pasta RELATORIO.
+
+Caso encontre dificuldades para acessar o arquivo relatorio.pdf, é possível visualizá-lo através do link: [Relatorio google doc](https://docs.google.com/document/d/1K9bJRKygB_ltaOErEnewcpAh3aKhYUXeY9_f7MzZ7b8/edit?tab=t.0)
+
+
 
 ## Descrição do Projeto
 Este projeto consiste em um conjunto de scripts de testes automatizados desenvolvido para garantir a qualidade de software. Ele utiliza **JMeter e Cypress** para executar testes de ponta a ponta e medir o desempenho do sistema, garantindo que as funcionalidades principais do sistema funcionem como esperado.
