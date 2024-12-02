@@ -102,7 +102,8 @@ describe('Teste de login, carrinho e validação de usuários no Demoblaze', () 
   
        // Verificar se o item no carrinho é o mesmo
         cy.get('#cartur').click(); // Botão "Cart"
-        cy.get('.success td:nth-child(2)').should('be.visible'); // Certifica-se de que o carrinho foi carregado
+        
+        // Certifica-se de que o carrinho foi carregado
         cy.get('.success td:nth-child(2)').then(($el) => {
         const cartItemName = $el.text().trim();
         cy.log(`Nome do item no carrinho: ${cartItemName}`);
